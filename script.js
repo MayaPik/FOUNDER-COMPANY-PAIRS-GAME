@@ -1,3 +1,4 @@
+import { Fireworks } from 'fireworks-js'
 var myCards = document.getElementById('container');
 let counter = 0;
 
@@ -74,7 +75,6 @@ function shuffle(o){
   return o;
 }
 shuffle(cards);
-//import { Fireworks } from 'fireworks-js'
 
 for (let i = 0; i < cards.length; i++) {
   let card = document.createElement('div');
@@ -108,9 +108,9 @@ for (let i = 0; i < cards.length; i++) {
               let about = document.getElementById('about');
             about.innerText = card.dataset.text;
             if(counter === 5) {
-             // const container = document.getElementById()
-              // const fireworks = new Fireworks(container, { /* options */ })
-             // fireworks.start()
+             const container = document.getElementById()
+            const fireworks = new Fireworks(container, { /* options */ })
+             fireworks.start()
                } 
         resultsArray = [];
       } else {
