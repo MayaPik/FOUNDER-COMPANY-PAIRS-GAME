@@ -1,4 +1,3 @@
-import { Fireworks } from 'fireworks-js'
 var myCards = document.getElementById('container');
 let counter = 0;
 
@@ -108,8 +107,8 @@ for (let i = 0; i < cards.length; i++) {
               let about = document.getElementById('about');
             about.innerText = card.dataset.text;
             if(counter === 5) {
-             const container = document.getElementById()
-            const fireworks = new Fireworks(container, { /* options */ })
+              const container = document.getElementById('container')
+              const fireworks = new Fireworks(container, { /* options */ })
              fireworks.start()
                } 
         resultsArray = [];
