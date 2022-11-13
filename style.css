@@ -1,7 +1,7 @@
 
 
 body {
-  background: lightblue;
+  background: rgb(27, 133, 169);
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   height:100%;
   color: white;
@@ -11,15 +11,15 @@ body {
 
 h1, h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 2.6em;
+  font-weight: 300;
+  font-size: 3em;
   text-transform: uppercase;
 }
 
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.4em;
+  font-size: 2.5em;
   text-transform: uppercase;
 }
 
