@@ -25,14 +25,19 @@ h3 {
 
 
 #container {
-  width: 700px;
-  margin: 10px auto; 
+  width: 60vw;
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: wrap;
 }
 
 [data-view="card"] {
   transform: rotateY(180deg);
-  width: 100px;
-  height: 140px;
+  width: 150px;
+  height: 210px;
   border: solid 5px #d3cece;
   border-radius: 15px;
   float: left;
